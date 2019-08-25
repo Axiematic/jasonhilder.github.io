@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Jason Hilder</title>
+
+    <!--import style sheet-->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--fullpage.js css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css"
+        integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
+    <!--import font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--import ubuntu font-->
+    <link rel="stylesheet" type="text/css"
+        href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
+
+
+</head>
+
+<body>
+
+    <div id="content">
+        <!--Introduction-->
+        <div class="section s1">
+            <div class="container-fluid">
+
+                <div class="row justify-content-center">
+                    <div class="intro">
+                        <h1>Hi, I'm Jason.</h1>
+                        <h2>An evolving developer.</h2>
+                    </div>
+                </div>
+
+                <div class="mt-4 row justify-content-center">
+                    <a href="/cv.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"> View My
+                        CV </a>
+                    <a href="#section2" class="ml-2 btn btn-outline-light"> View Projects </a>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="socials">
+                        <a href="https://github.com/JSONhilder" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://twitter.com/JSONhilder" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/jason-hilder/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="email">
+                        <a href="mailto:jhilder95@gmail.com">jhilder95@gmail.com</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Projects-->
+        <div class="section s2">
+            <div class="container desktop-l">
+                <div class="row justify-content-center projects">
+                    <h2>My Projects</h2>
+
+                    <div class="mt-3 card-deck">
+                        <div class="card">
+                        <a href="https://jsonhilder.pythonanywhere.com/"> <img src="/static/images/django-project.png" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h5 class="card-title">To Do List PWA</h5>
+                                <p class="card-text"> To Do List made with Python, Django, MySQL, HTML and CSS
+                                    (bootstrap), packaged as a PWA for "app like" usage.</p>
+                                <a href="https://github.com/JSONhilder/Django_ToDo_App"> View GitHub Repo</a>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/static/images/converter-project.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML Generator</h5>
+                                <p class="card-text">Python app with a Tkinter GUI to generate HTML signatures from a template using a csv file.</p>
+                                <a href="https://github.com/JSONhilder/Html_Signature_Generator"> View GitHub Repo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/static/images/t-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Twitter Bot Tkinter</h5>
+                                <p class="card-text"> Twitter Bot using Python, selenium web driver and tkinter, will
+                                    like all posts with a specified tweet. </p>
+                                <a href="#"> View GitHub Repo</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://jsonhilder.github.io/"><img src="/static/images/blog-project.png" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Blog Site</h5>
+                                <p class="card-text">Personal Blog website built with Hugo, HTML, Pure CSS, deployed on Github pages and maintained with TravisCI </p>
+                                    <a href="https://github.com/JSONhilder/myblog"> View GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 note">
+                        <p>These are my most recent projects so far to view all of my projects see my <a
+                                href="https://github.com/JSONhilder" target="_blank"> <b>github</b></a></p>
+                        <!--<div class="cv-btn">
+                                <a href="/cv.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light" > View My CV </a>
+                            </div> -->
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Mobile project section-->
+            <div class="container mobile-l">
+                <div class="row justify-content-center projects">
+                    <h1> My Projects </h1>
+
+                    <div class="mt-2 list-group cell-projects">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">To Do List PWA</h5>
+                            </div>
+                            <p class="mb-1">To Do List made with Python, Django, MySQL, HTML and CSS (bootstrap),
+                                packaged as a PWA for "app like" usage.
+                            </p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
+                                risus varius
+                                blandit.
+                            </p>
+
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
+                                risus varius
+                                blandit.
+                            </p>
+
+                        </a>
+
+                        <div class="mt-4 row justify-content-center">
+                            <p> See my <a href="https://github.com/JSONhilder" target="_blank"
+                                    rel="noopener noreferrer">github</a> profile for all of my projects </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section s3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h2>Tech I'm Familiar With</h2>
+                </div>
+                <div class="mt-4 row justify-content-center">
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/python.png" style="width:100%">
+                        <h4 style="text-align: center">Python</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/django.png" style="width:100%">
+                        <h4 style="text-align: center">Django</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/flask.png" style="width:100%">
+                        <h4 style="text-align: center">Flask</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/mysql.png" style="width:100%">
+                        <h4 style="text-align: center">MySQL</h4>
+                    </div>
+
+                </div>
+
+                <div class="mt-4 row justify-content-center">
+                    <div class=" mr-4 column">
+                        <img  class="tech-img" src="static/images/tech/html.png" style="width:100%">
+                        <h4 style="text-align: center">HTML5</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/css.png" style="width:100%">
+                        <h4 style="text-align: center">CSS3</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/bootstrap.png" style="width:100%">
+                        <h4 style="text-align: center">Bootstrap4</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/hugo.png" style="width:100%">
+                        <h4 style="text-align: center">Hugo</h4>
+                    </div>
+                    <div class="mr-4 column">
+                        <img class="tech-img" src="static/images/tech/wordpress.png" style="width:100%">
+                        <h4 style="text-align: center">Wordpress</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--About Me-->
+        <div class="section s3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="bio">
+                        <h1>About Me</h1>
+                        <p>I'm a developer based in sunny Durban South Africa, some people consider me quite the "nerd"
+                            but in truth i'm just captivated by technology, computers and combining the two in order to
+                            bring to life the quirky idea's I envision. I began my journey into development in December
+                            2018 and so far has led me to become comfortable working with HTML, pure CSS as well as CSS
+                            libraries such as bootstrap, Wordpress, MySQL and Python along with its popular web
+                            frameworks Django and Flask.
+                            <br><br>
+                            I also enjoy blogging to document what I'm learning and how I'm implementing these skills,
+                            you can find my blog <a href="https://jsonhilder.github.io" target="_blank"><b>here</b></a>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="footer">
+                            <p>Made with <b> < /> </b> and <i class="fa fa-heart"></i> Jason Hilder, 2019.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--fullpage.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+        integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+
+    <!-- remove watermark -->
+    <script src="static/js/removeBanner.js"></script>
+    <script>
+
+        new fullpage('#content', {
+            autoScrolling: true,
+            navigation: true,
+            navigationPosition: 'left',
+            navigationTooltips: ['Introduction', 'Projects', 'About Me'],
+            showActiveTooltip: false,
+            scrollingSpeed: 1200,
+            anchors: ['section1', 'section2', 'section3']
+        })
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+/*Declare css variables*/
+:root{
+    --main-font: Ubuntu, "times new roman", times, roman, serif;
+}
+
+h1, h2, h3, a, p {
+    font-family: var(--main-font)
+}
+
+/*Navigation dots*/
+/*START*/
+a.active span {
+    height: 20px;
+    width: 20px;
+}
+
+a span {
+    height: 20px;
+    width: 20px;
+}
+
+span{
+    background: white !important;
+}
+/*END*/
+
+/*Section styles*/
+/*START*/
+.s1{
+    color: white;
+    background-image: url(/static/images/background-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    text-align: center;
+}
+
+.s2{
+    background-color: #1F252A;
+    color: white;
+}
+
+.s2 a {
+    color: rgb(79, 211, 75);
+}
+
+.s2 a:hover {
+    color: rgb(57, 148, 54);
+    text-decoration: none;
+}
+
+.section .cell-s2 {
+    display: none;
+}
+
+
+.s3{
+    background-color: #1F252A;
+    color: white;
+}
+
+.s3 a {
+    color:rgb(79, 211, 75);
+}
+
+.s3 a:hover {
+    color: rgb(57, 148, 54);
+    text-decoration: none;
+}
+/*END*/
+
+
+/*Button styling*/
+/*START*/
+.btn {
+    border-radius: 0 !important;
+}
+/*END*/
+
+.cv-btn {
+    text-align: center;
+}
+
+.cv-btn a {
+    color: white;
+}
+
+.cv-btn a:hover {
+    color: black;
+}
+/*Social icon styling*/
+/*START*/
+
+.socials {
+    display: inline-block;
+    position: fixed;
+    bottom: 110px;
+}
+
+.socials i {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 0 0 0 0;
+}
+
+.socials i:hover{
+    color: rgb(112, 112, 112)
+}
+
+/*END*/
+
+/*Email address styling*/
+/*START*/
+.email {
+    position: fixed;
+    bottom: 80px;
+    font-family: var(--main-font);
+    
+}
+
+.email a {
+    color: #fff;
+}
+
+.email a:hover {
+    color: rgb(112, 112, 112)
+}
+/*END*/
+
+/*Project Section*/
+/*START*/
+.projects {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.card-deck {
+    color: black;
+}
+
+/*mobile styling*/
+
+.mobile-l a {
+    color: black;
+}
+
+.mobile-l h1 {
+    font-size: 35px;
+}
+
+.mobile-l .list-group {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+}
+
+
+/*END*/
+
+/*About Me Section*/
+/*START*/
+
+.bio {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+/*END*/
+
+
+/*footer styling*/
+/*START*/
+
+.footer i {
+    color: rgb(199, 52, 52);
+    margin-left: 3px;
+}
+
+.footer b {
+    color: rgb(79, 211, 75);
+}
+
+.footer {
+    position: fixed;
+    padding-top: 15%;
+}
+/*END*/
+
+/*MEDIA QUERIES*/
+/*Start*/
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .mobile-l {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .mobile-l {
+        display: none;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    /*intro*/
+    .intro h1 {
+        font-size: 30px;
+    }
+    
+    .intro h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .socials {
+        bottom: 50px;
+    }
+
+    .email {
+        bottom: 30px;
+    }
+    /*end*/
+    /*projects*/
+
+    .desktop-l {
+        display: none;
+    }
+
+    /*end*/
+    /*about me*/
+    .bio {
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .bio h1 {
+        font-size: 35px;
+    }
+
+    .footer {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .cell-projects {
+        margin-left: 13% !important;
+        margin-right: 13% !important;
+    }
+
+    .tech-img  {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 40%  !important;
+    }
+    /*end*/
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+/*END*/
