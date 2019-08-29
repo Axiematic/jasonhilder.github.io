@@ -242,7 +242,7 @@ span{
     .bio {
         margin-left: 8%;
         margin-right: 8%;
-        font-size: 14px;
+        font-size: 11px;
         text-align: center;
     }
     .bio h1 {
@@ -265,6 +265,10 @@ span{
         margin-left: auto !important;
         margin-right: auto !important;
         width: 40%  !important;
+    }
+
+    .tech-section  h4{
+    font-size: 15px  !important;
     }
     /*end*/
 }
