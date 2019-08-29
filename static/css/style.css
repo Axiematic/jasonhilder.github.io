@@ -256,8 +256,12 @@ span{
     }
 
     .cell-projects {
-        margin-left: 15% !important;
-        margin-right: 15% !important;
+        margin-left: 12% !important;
+        margin-right: 9% !important;
+    }
+
+    .cell-link a {
+        color: rgb(79, 211, 75);
     }
 
     .tech-img  {
