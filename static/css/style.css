@@ -186,7 +186,8 @@ span{
 
 .footer {
     position: fixed;
-    padding-top: 15%;
+    padding-top: 3%;
+    padding-bottom: 15%;
 }
 /*END*/
 
@@ -251,6 +252,7 @@ span{
 
     .footer {
         padding-top: 5%;
+        padding-bottom: 5%;
         text-align: center;
         font-size: 10px;
     }
